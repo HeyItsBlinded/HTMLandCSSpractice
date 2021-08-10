@@ -81,5 +81,29 @@
             </tbody>
         </table>
         <br>
+        <p>Here's a form for nothing in particular</p>
+        <form method="POST" action="main.html">
+            <label for="number">Enter a number. Assigning the value<br>
+            'number' to the input type restricts what can be typed<br>
+            in the entry box.
+            </label>
+            <input type="number" name="number">
+            <br><br>
+            <label for="name">Enter a name. This label is assigned<br>
+            to an asset called 'name'. Make sure it matches with the<br>
+            input, or else your values won't store.
+            </label>
+            <input type="text" name="name">
+            <br><br>
+            <label for="selection">Here we have a method for checking boxes.</label>
+            <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Lettuce</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Tomato</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Onion</label>
+            
+        </form>
+        <br>
     </body>
 </html>
